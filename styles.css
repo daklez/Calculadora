@@ -24,13 +24,19 @@ body{
 }
 
 .key{
-    background-color: darkgrey;
+    background-color: rgb(48, 48, 48);
     text-align: center;
     border-radius: 5px;
-    border-bottom: 2px solid white;
-    border-right: 1px solid white;
+    border-bottom: 2px solid rgb(134, 134, 134);
+    border-right: 1px solid rgb(134, 134, 134);
     font-weight: bolder;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.symbol-key{
+    background-color: darkgrey;
+    border-bottom: 2px solid white;
+    border-right: 1px solid white;
 }
 
 #result{
