@@ -4,6 +4,14 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+@font-face {
+  font-family: 'digital-7';
+  src: url('digital-7.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
 #calculator-size{
     height: 250px;
     width: 200px;
@@ -54,8 +62,8 @@ body{
     justify-self: stretch;
     text-align: right;
     padding-right: 5px;
-    font-family:'Orbitron', sans-serif ;
-    font-size: 25px;
+    font-family:'digital-7', sans-serif ;
+    font-size: 40px;
 }
 
 
